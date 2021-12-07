@@ -1,0 +1,410 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.body{
+    width: 1280px;
+    height: 2947px;
+    background-color:#FFFFFF;
+}
+/********************** Для всех **********/
+button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+p, h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #2C1500;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #156963;
+}
+h4, h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #000000;
+}
+h5{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    color: #000000;
+}
+/*************************************************/
+.header{
+    width: 1280px;
+    position: relative;
+    margin-bottom: 140px;  
+}
+.header > div{
+    display: inline-block;
+    height: 744px;
+    vertical-align: top;
+}
+/************ Header FOTO ************/
+div.header_img{
+    width: 47.1%;
+    background-image: url('../img/header_foto.png');
+    background-repeat: no-repeat;
+}
+.header_img_icon{
+    width: 36px;
+    height: 36px;
+    margin-top: 50px;
+    margin-left: 56px;
+}
+.header_img_icon_p{
+    color: #FFFFFF;
+    size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    position: absolute;
+    top: 58px;
+    left: 70px;
+}
+/**************************************************/
+div.header_content{
+    width: 52.5%;
+}
+.header_content_input{
+    width: 310px;
+    height: 36px;
+    margin-top: 40px;
+    margin-right: 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;  
+    margin-bottom: 110px;
+}
+.header_content_input_icon1{
+    width: 20px;
+    height: 20px;
+    margin: 8px 20px 8px 0px;
+}
+.header_content_input_icon2{
+    width: 20px;
+    height: 20px;
+    margin: 8px 8px 8px 12px;
+}
+.header_content_input > button{
+    padding: 8px 29.5px;
+    border: none;
+}
+.header_btn_sign_up{
+    color: #156963;
+    background-color: #FFFFFF;
+    margin: 0px 0px;
+}
+button.header_btn_sign_in{
+    color: #FFFFFF;
+    background-color: #156963;
+    border-right: 4px solid #156963;
+    border-left: 4px solid #156963;
+}
+/********************************/
+.header_content_h1{
+    font-size: 68px;
+    line-height: 82.89px;
+    color: #156963;
+     margin-left: 77px;
+    margin-right: 72px;
+    margin-bottom: 24px;
+}
+.header_content_text{
+    font-size: 18px;
+    line-height: 32px;
+    margin-left: 77px;
+    margin-right: 102px;
+    margin-bottom: 110px;
+}
+/*******************************************/
+.header_plant{
+    width: 640px;
+    height: 160px;
+    margin-left: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+.header_plant > div{
+    width: 320px;
+    padding-left: 49px;
+    padding-top: 45.5px;
+}
+.header_plant > div p{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29,26px;
+    color: #333333;
+    margin-bottom: 13.5px;
+}
+.header_plant > .header_plant_next p{
+    color:#F2F2F2;
+}
+.header_plant > div h2{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 39.01px;
+}
+.header_plant_previous > h2{
+    color: #156963;
+}
+.header_plant_next{
+    background-color:#156963;
+}
+.header_plant_next > h2{
+    color:#ffffff;
+}
+
+/**************************** main SERVICE***************/
+.main{
+    margin-left: 56px;
+    margin-right: 56px;
+}
+.main_service{
+    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0;
+}
+.main_service > div{
+    width: 268px;
+    height: 155px;
+    position: relative;
+    border: 1px solid #E0E0E0;
+    padding-top: 22px;
+}
+.main_service > div h3{
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 80px;
+    padding-right: 51px;
+}
+.main_service > div p{
+    font-size: 10px;
+    line-height: 1.6;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+/********* иконки *********/
+.main_service_icon{
+    position: absolute;
+    top: 22px;
+    left: 18.91px;
+}
+/**********************************/
+.main_product_choice{
+    margin-bottom: 19.5px;
+    height: 31px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.main_product_choice_h4{
+    margin-left: 0px;
+    font-size: 20px;
+    line-height: 24.38px;
+    padding-top: 3.5px;
+}
+.main_product_choice_butten{
+    margin-right: 0px;
+    padding: 8px 12px 8px 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #000000;
+    border: 1px solid #E0E0E0;
+    background: #FFFFFF;
+}
+.main_product_choice_butten_img{
+    width: 12px;
+    height: 12px;
+    margin-left: 12px;
+}
+/***************************************/
+
+.main_horizontal_line{
+    width: 1168px;
+    border: 1px solid #E0E0E0;
+    margin-bottom: 24px;
+}
+
+/*************************main CONTENT *********************/
+.main_product_content{
+    display: grid;
+    grid-template: "post1 post2 post3 post 4 post5";
+    margin-bottom: 89.73px;
+}
+.main_product_content > div{
+    width: 217px;
+    height: 281px;
+    margin-right: 20px;
+    text-align: center;
+    color: #000000;
+}
+p.plant_name{
+    font-size: 16px;
+    line-height: 19.5px;
+    margin-bottom: 8px;
+}
+p.plant_price{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.5px;
+}
+/*****************************************************/
+
+/******************** MAIN_Information***************/
+.main_information{
+    width: 100%;
+    margin-bottom: 80.1px;
+}
+.main_information > div{
+    display: inline-block;
+    vertical-align: top;
+}
+.main_information_left > h3, p{
+    color: #2C1500;
+}
+/********************  Левый блок ***********************/
+.main_information_left{
+    width: 48.6%;
+}
+.main_information_left_h3{
+    font-size: 40px;
+    line-height: 56px;
+    margin-left: 21px;
+    margin-bottom: 16px;
+    margin-top: 9.73px;
+}
+.main_information_left_text{
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 21px;
+    margin-bottom: 74px;
+    opacity: 80%;
+}
+.main_information_left_img{
+    width: 568px;
+    height: 250px;
+}
+/******************** Правый блок ***************/
+.main_information_right{
+    width: 43.78%;
+    height: 609.9px;
+    margin-right: 1px;
+    margin-left: 84px;
+    background-image: url('../img/main_information_img2.png');
+    background-repeat: no-repeat;
+}
+/**********************************************************/
+
+/****************** main INPUT ******************/
+.main_input{
+    height: 360px;
+    background-color:#F3F4F6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 0; 
+    margin-bottom: 80px;
+}
+.main_input_h3{
+    font-size: 40px;
+    line-height: 56px;
+    color:#2C1500;
+    margin-left: 97px;
+    margin-top: 88px;
+    margin-bottom: 42px;
+}
+.main_input_button{
+    padding: 10px 42px 10px 42px;
+    background: #156963;
+    border: none;
+    color: #FAFEFE;
+    margin-left: 97px;
+}
+.main_input_right{
+    width: 480px;
+    background-image: url('../img/main_input_img.png');
+    background-repeat: no-repeat;
+}
+/************************************************************/
+.body_horizontal_line{
+    width: 1280px;
+    border: 1px solid #156963;
+    opacity: 30%;
+    margin-bottom: 60px;
+}
+/********************** FOOTER ********************************/
+.footer{
+    height: 268px;
+    padding-left: 167px;
+    padding-right: 202px;
+    padding-top: 60px;
+    display: flex;
+} 
+.footer_h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1.1px;
+    color: #156963;
+    margin-bottom: 24px;
+}
+.footer_h5_plantru_house{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18.77px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.footer_text{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.footer_h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 20px;
+}
+.footer_p{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    margin-bottom: 14px;
+}
+.footer > div:last-child p{
+    font-size: 12px;
+    opacity: 50%;
+    margin-bottom: 26px;
+}
+.footer_button{
+    padding: 4px 12px 4px 12px;
+    font-size: 8px;
+    line-height: 14px;
+    color: #FFFFFF;
+    background: #156963;
+    border-radius: 2px;
+    border: none;
+}
